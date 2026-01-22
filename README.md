@@ -1,4 +1,4 @@
-📊 Twitter Dataset – 
+📊 Twitter Dataset – Machine Learning Lab Project
 
 This repository contains my Machine Learning Lab Assignment based on a Twitter dataset.
 The project covers data preprocessing, feature engineering, feature selection methods, and machine learning algorithms, implemented step-by-step using Python.
@@ -13,37 +13,22 @@ Number of features: 14
 
 Data type: Mixed (Numerical, Categorical, Text)
 
-Dataset Columns
-Column Name	Description
-TweetID	Unique tweet identifier
-Weekday	Day of posting
-Hour	Hour of posting
-Day	Day of month
-Lang	Tweet language
-IsReshare	Retweet indicator
-Reach	Number of users reached
-RetweetCount	Number of retweets
-Likes	Number of likes
-Klout	User influence score
-Sentiment	Sentiment score
-text	Tweet text
-LocationID	Location identifier
-UserID	User identifier
+
 🎯 Project Objectives
 
-Understand and describe the dataset
+1.Understand and describe the dataset
 
-Handle missing values properly
+2.Handle missing values properly
 
-Perform feature engineering
+3.Perform feature engineering
 
-Apply feature selection techniques
+4.Apply feature selection techniques
 
-Implement machine learning algorithms
+5.Implement machine learning algorithms
 
-Split data and validate models
+6.Split data and validate models
 
-Analyze results and findings
+7.Analyze results and findings
 
 🛠️ Tasks Performed
 1️⃣ Dataset Description
@@ -52,11 +37,11 @@ Dataset structure and feature types analyzed using info() and describe()
 
 2️⃣ Handling Missing Data
 
-Numerical features filled using median
+1.Numerical features filled using median
 
-Categorical features filled using mode
+2.Categorical features filled using mode
 
-Column names cleaned to remove extra spaces
+3.Column names cleaned to remove extra spaces
 
 3️⃣ Feature Engineering
 
@@ -69,26 +54,26 @@ Removed irrelevant ID columns
 
 4️⃣ Gradient Descent Algorithm
 
-Linear Regression applied to predict Likes
+1.Linear Regression applied to predict Likes
 
-Features scaled using StandardScaler
+2.Features scaled using StandardScaler
 
-Cost evaluated using Mean Squared Error (MSE)
+3.Cost evaluated using Mean Squared Error (MSE)
 
 5️⃣ Distance-Based Algorithm
 
-K-Nearest Neighbors (KNN) used
+1.K-Nearest Neighbors (KNN) used
 
-Euclidean distance applied
+2.Euclidean distance applied
 
-Binary popularity classification performed
+3.Binary popularity classification performed
 
 🔍 Feature Selection Methods
 6️⃣ Filter Method
 
-Correlation-based feature selection
+1.Correlation-based feature selection
 
-Variance Threshold method
+2.Variance Threshold method
 
 7️⃣ Wrapper Method
 
